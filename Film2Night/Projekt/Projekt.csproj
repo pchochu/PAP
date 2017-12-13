@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E168724-C3AB-476E-8E5C-4BAAE27751B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projekt</RootNamespace>
+    <AssemblyName>Projekt</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.cs" />
+    <Compile Include="dataFilmy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dataFilmy.Designer.cs">
+      <DependentUpon>dataFilmy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film.cs" />
+    <Compile Include="hlavne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hlavne.Designer.cs">
+      <DependentUpon>hlavne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hlavneA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hlavneA.Designer.cs">
+      <DependentUpon>hlavneA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logIn.Designer.cs">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operacie.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registracia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registracia.Designer.cs">
+      <DependentUpon>registracia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UzivateliaInfo.cs" />
+    <Compile Include="vlastnyFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vlastnyFilm.Designer.cs">
+      <DependentUpon>vlastnyFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZobrazUzivatelov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZobrazUzivatelov.Designer.cs">
+      <DependentUpon>ZobrazUzivatelov.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dataFilmy.resx">
+      <DependentUpon>dataFilmy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hlavne.resx">
+      <DependentUpon>hlavne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hlavneA.resx">
+      <DependentUpon>hlavneA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logIn.resx">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="registracia.resx">
+      <DependentUpon>registracia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vlastnyFilm.resx">
+      <DependentUpon>vlastnyFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZobrazUzivatelov.resx">
+      <DependentUpon>ZobrazUzivatelov.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
