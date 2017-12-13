@@ -35,17 +35,19 @@
             // nahladUziv
             // 
             this.nahladUziv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.nahladUziv.Location = new System.Drawing.Point(49, 17);
+            this.nahladUziv.Location = new System.Drawing.Point(53, 26);
+            this.nahladUziv.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.nahladUziv.Name = "nahladUziv";
-            this.nahladUziv.Size = new System.Drawing.Size(627, 350);
+            this.nahladUziv.Size = new System.Drawing.Size(1672, 835);
             this.nahladUziv.TabIndex = 0;
             // 
             // ZobrazUzivatelov
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 379);
+            this.ClientSize = new System.Drawing.Size(2073, 995);
             this.Controls.Add(this.nahladUziv);
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "ZobrazUzivatelov";
             this.Text = "Zobraz Uzivatelov";
             this.Load += new System.EventHandler(this.ZobrazUzivatelov_Load);

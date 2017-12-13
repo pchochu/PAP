@@ -16,7 +16,7 @@ namespace Projekt
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dataFilmy());
+            Application.Run(new vlastnyFilm());
         }
     }
 }

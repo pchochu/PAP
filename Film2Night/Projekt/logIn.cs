@@ -95,7 +95,7 @@ namespace Projekt
 
         public void otvorBezne(UzivateliaInfo informacie)
         {
-            hlavne hl = new hlavne();
+            hlavne hl = new hlavne(informacie);
             this.Hide();
             hl.Show();
         }

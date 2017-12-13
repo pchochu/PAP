@@ -16,7 +16,7 @@ namespace Projekt
         {
             List<Film> filmy = new List<Film>();
 
-            using (StreamReader r = new StreamReader(@"C:\Users\JCH\Desktop\zaloha.txt"))
+            using (StreamReader r = new StreamReader(@"C:\Users\Peto\Documents\GitHub\PAP\zaloha.txt"))
             {
                 string json = r.ReadToEnd();
                 dynamic pole = JsonConvert.DeserializeObject(json);

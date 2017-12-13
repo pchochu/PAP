@@ -12,9 +12,16 @@ namespace Projekt
 {
     public partial class hlavne : Form
     {
-        public hlavne()
+        UzivateliaInfo info = new UzivateliaInfo();
+        public hlavne(UzivateliaInfo info)
         {
             InitializeComponent();
+            this.info = info;
+        }
+
+        private void hlavne_Load(object sender, EventArgs e)
+        {
+            meno.Text = info.menoPriezvisko;
         }
     }
 }

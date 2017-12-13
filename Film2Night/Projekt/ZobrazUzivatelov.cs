@@ -14,7 +14,7 @@ namespace Projekt
     public partial class ZobrazUzivatelov : Form
     {
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;
-                                                            AttachDbFilename=C:\Users\JCH\source\repos\Film2Night\Databaza\DB.mdf;
+                                                            AttachDbFilename=C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Databaza\DB.mdf;
                                                             Integrated Security=True; Connect Timeout=30");
         public ZobrazUzivatelov()
         {
@@ -28,9 +28,7 @@ namespace Projekt
             DataTable dt = new DataTable();
             sda.Fill(dt);
             nahladUziv.DataSource = dt;
-            nahladUziv.Columns[0].Visible = false;
-            nahladUziv.Columns[2].Visible = false;
-            nahladUziv.Columns[4].Visible = false;
+
         }
     }
 }

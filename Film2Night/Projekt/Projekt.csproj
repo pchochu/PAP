@@ -88,11 +88,23 @@
       <DependentUpon>registracia.cs</DependentUpon>
     </Compile>
     <Compile Include="UzivateliaInfo.cs" />
+    <Compile Include="UzivatelPridajcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UzivatelPridajcs.Designer.cs">
+      <DependentUpon>UzivatelPridajcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="vlastnyFilm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vlastnyFilm.Designer.cs">
       <DependentUpon>vlastnyFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZobrazFilmy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZobrazFilmy.Designer.cs">
+      <DependentUpon>ZobrazFilmy.cs</DependentUpon>
     </Compile>
     <Compile Include="ZobrazUzivatelov.cs">
       <SubType>Form</SubType>
@@ -124,8 +136,14 @@
     <EmbeddedResource Include="registracia.resx">
       <DependentUpon>registracia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UzivatelPridajcs.resx">
+      <DependentUpon>UzivatelPridajcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="vlastnyFilm.resx">
       <DependentUpon>vlastnyFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZobrazFilmy.resx">
+      <DependentUpon>ZobrazFilmy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ZobrazUzivatelov.resx">
       <DependentUpon>ZobrazUzivatelov.cs</DependentUpon>

@@ -12,7 +12,7 @@ namespace Projekt
     public class Operacie
     {
         string conn = (@"Data Source=(LocalDB)\MSSQLLocalDB;
-                     AttachDbFilename=C:\Users\JCH\source\repos\Film2Night\Databaza\DB.mdf;
+                     AttachDbFilename=C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Databaza\DB.mdf;
                      Integrated Security=True; Connect Timeout=30");
 
         public bool zaregistruj(UzivateliaInfo info)
@@ -82,6 +82,21 @@ namespace Projekt
             }         
         }
 
+        public Film nacitajFilm(int i)
+        {
+            Film f = new Film();
+            string poradie = i.ToString();
+            string dotaz = "Select * from Filmy where Id = '" + poradie + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            f.meno = dt.Rows[0][1].ToString();
+            f.popis = dt.Rows[0][2].ToString();
+            f.obrazok = ((byte[])dt.Rows[0][3]);
+
+            return f;
+        }
+
         private bool kontrolujFilm(SqlConnection sqlconn, string meno)
         {
             SqlCommand kontroluj = new SqlCommand("KontrolujFilm", sqlconn);
@@ -104,6 +119,7 @@ namespace Projekt
             pridaj.ExecuteNonQuery();
         }
 
+        
     }
 
 }

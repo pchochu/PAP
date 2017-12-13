@@ -36,15 +36,19 @@ namespace Projekt
         private void Vlastny_Click(object sender, EventArgs e)
         {
             vlastnyFilm vf = new vlastnyFilm();
-            this.Close();
             vf.Show();
         }
 
         private void Nove_Click(object sender, EventArgs e)
         {
             dataFilmy df = new dataFilmy();
-            this.Close();
             df.Show();
+        }
+
+        private void filmyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ZobrazFilmy zf = new ZobrazFilmy();
+            zf.Show();
         }
     }
 }
