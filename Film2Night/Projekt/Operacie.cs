@@ -84,17 +84,23 @@ namespace Projekt
 
         public Film nacitajFilm(int i)
         {
-            Film f = new Film();
-            string poradie = i.ToString();
-            string dotaz = "Select * from Filmy where Id = '" + poradie + "'";
-            SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            f.meno = dt.Rows[0][1].ToString();
-            f.popis = dt.Rows[0][2].ToString();
-            f.obrazok = ((byte[])dt.Rows[0][3]);
-
-            return f;
+            try
+            {
+                Film f = new Film();
+                string poradie = i.ToString();
+                string dotaz = "Select * from Filmy where Id = '" + poradie + "'";
+                SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                f.meno = dt.Rows[0][1].ToString();
+                f.popis = dt.Rows[0][2].ToString();
+                f.obrazok = ((byte[])dt.Rows[0][3]);
+                return f;
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
         }
 
         private bool kontrolujFilm(SqlConnection sqlconn, string meno)
@@ -115,7 +121,7 @@ namespace Projekt
             pridaj.CommandType = CommandType.StoredProcedure;
             pridaj.Parameters.AddWithValue("@meno", film.meno);
             pridaj.Parameters.AddWithValue("@popis", film.popis);
-            pridaj.Parameters.AddWithValue("@Obrazok", film.obrazok);
+            pridaj.Parameters.AddWithValue("@obrazok", film.obrazok);
             pridaj.ExecuteNonQuery();
         }
 

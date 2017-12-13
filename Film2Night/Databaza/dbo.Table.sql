@@ -1,8 +1,7 @@
-﻿CREATE TABLE [dbo].[Table] (
-    [Id]    INT          NOT NULL,
-    [meno]  VARCHAR (20) NULL,
-    [heslo] VARCHAR (20) NULL,
-    [menoPriezvisko] VARCHAR(50) NULL, 
+﻿CREATE TABLE [dbo].[Filmy] (
+    [Id]      INT           IDENTITY (1, 1) NOT NULL,
+    [Meno]    VARCHAR (20)  NULL,
+    [Popis]   VARCHAR (MAX) NULL,
+    [Obrazok] IMAGE         NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
-

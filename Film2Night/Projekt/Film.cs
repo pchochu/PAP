@@ -11,5 +11,6 @@ namespace Projekt
         public string meno { get; set; }
         public string popis { get; set; }
         public byte[] obrazok { get; set; }
+        public int Id { get; set; }
    }
 }

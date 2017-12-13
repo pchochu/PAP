@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.filmy = new System.Windows.Forms.ListView();
+            this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Meno = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Popis = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // filmy
@@ -40,12 +40,17 @@
             this.ID,
             this.Meno,
             this.Popis});
-            this.filmy.Location = new System.Drawing.Point(23, 12);
+            this.filmy.Location = new System.Drawing.Point(61, 29);
+            this.filmy.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.filmy.Name = "filmy";
-            this.filmy.Size = new System.Drawing.Size(640, 300);
+            this.filmy.Size = new System.Drawing.Size(1700, 710);
             this.filmy.TabIndex = 0;
             this.filmy.UseCompatibleStateImageBehavior = false;
             this.filmy.View = System.Windows.Forms.View.Details;
+            // 
+            // ID
+            // 
+            this.ID.Text = "ID";
             // 
             // Meno
             // 
@@ -57,16 +62,14 @@
             this.Popis.Text = "Popis";
             this.Popis.Width = 480;
             // 
-            // ID
-            // 
-            this.ID.Text = "ID";
-            // 
             // dataFilmy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 345);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1851, 823);
             this.Controls.Add(this.filmy);
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "dataFilmy";
             this.Text = "dataFilmy";
             this.Load += new System.EventHandler(this.dataFilmy_Load);
