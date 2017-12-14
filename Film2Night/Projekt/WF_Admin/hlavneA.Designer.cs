@@ -155,7 +155,6 @@
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "hlavneA";
             this.Text = "Admin";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.hlavneA_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
