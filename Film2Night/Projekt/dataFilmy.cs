@@ -24,13 +24,20 @@ namespace Projekt
             List<Film> json = new List<Film>();
             json = d.napln();
 
-            foreach (Film film in json)
+            try
             {
-                ListViewItem item = new ListViewItem(i.ToString());
-                item.SubItems.Add(film.meno);
-                item.SubItems.Add(film.popis);
-                filmy.Items.Add(item);
-                i++;
+                foreach (Film film in json)
+                {
+                    ListViewItem item = new ListViewItem(i.ToString());
+                    item.SubItems.Add(film.meno);
+                    item.SubItems.Add(film.popis);
+                    filmy.Items.Add(item);
+                    i++;
+                }
+            }
+            catch (NullReferenceException)
+            {
+               
             }
         }
     }

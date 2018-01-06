@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft;
@@ -16,17 +17,27 @@ namespace Projekt
         {
             List<Film> filmy = new List<Film>();
 
-            using (StreamReader r = new StreamReader(@"C:\Users\Peto\Documents\GitHub\PAP\zaloha.txt"))
+
+            using (WebClient wc = new WebClient())
             {
-                string json = r.ReadToEnd();
+                try { 
+                var json = wc.DownloadString("https://api.themoviedb.org/3/movie/popular?api_key=0e0a1e5f7cbfcba8a2a28c3b1406eebf&language=en-US&page=1");
+
                 dynamic pole = JsonConvert.DeserializeObject(json);
-                foreach (var film in pole)
+
+                foreach (var film in pole.results)
                 {
-                    Film f = new Film();
-                    f.meno = film.title;
-                    f.popis = film.storyline;
-                    filmy.Add(f);
+                    Film F = new Film();
+                    F.meno = film.title;
+                    F.popis = film.overview;
+                    filmy.Add(F);
                 }
+                }
+                catch(WebException)
+                {
+                    return null;
+                }
+
             }
                 return filmy;
         }
