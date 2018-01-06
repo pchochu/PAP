@@ -29,6 +29,23 @@ namespace Projekt
         private void UzivatelPridajcs_Load(object sender, EventArgs e)
         {
             f = o.nacitajFilm(pocitadlo);
+            try
+            {
+                while (o.mamFilm(f.Id, info.Id))
+                {
+                    pocitadlo++;
+                    f = o.nacitajFilm(pocitadlo);
+                }
+            }
+            catch (NullReferenceException)
+            {
+                meno.Text = "V DB nie sú žiadne filmy";
+                popis.Hide();
+                obrazok.Hide();
+                dalsi.Hide();
+                pridaj.Hide();
+            }
+
             if (f != null)
             {
                 meno.Text = f.meno;

@@ -16,6 +16,7 @@ namespace Projekt
         Operacie o = new Operacie();
         UzivateliaInfo info = new UzivateliaInfo();
         int pocitadlo = 0;
+        int i = 0;
         public MojeFilmy(UzivateliaInfo info)
         {
             InitializeComponent();
@@ -25,13 +26,13 @@ namespace Projekt
 
         private void MojeFilmy_Load(object sender, EventArgs e)
         {
-            zobraz(info, 0);
+            zobraz(info, 0, i);
         }
 
-        private void zobraz(UzivateliaInfo info, int pocitadlo)
+        private void zobraz(UzivateliaInfo info, int pocitadlo, int i)
         {
             Film f = new Film();
-            f = o.nacitajMojFilm(info, pocitadlo);
+            f = o.nacitajMojFilm(info, pocitadlo, i);
             if (f == null)
             {
                 meno.Text = "V DB už nemáš ďalšie filmy";
@@ -52,7 +53,7 @@ namespace Projekt
         private void Dalsi_Click(object sender, EventArgs e)
         {
             pocitadlo++;
-            zobraz(info, pocitadlo);
+            zobraz(info, pocitadlo, i);
         }
 
         private void Koniec_Click(object sender, EventArgs e)
@@ -65,8 +66,41 @@ namespace Projekt
         private void Videl_Click(object sender, EventArgs e)
         {
             Film f = new Film();
-            f = o.nacitajMojFilm(info, pocitadlo);
+            f = o.nacitajMojFilm(info, pocitadlo, 0);
             o.videl(info.Id, f.Id);
+            MessageBox.Show("Film bol nastavený na už videný");
+        }
+
+        private void nevidenéFilmyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Videl.Show();
+            i = 0;
+            pocitadlo = 0;
+            zobraz(info, pocitadlo, i);
+        }
+
+        private void videnéFilmyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Videl.Hide();
+            Dalsi.Show();
+            meno.Show();
+            popis.Show();
+            pictureBox1.Show();
+            i = 1;
+            pocitadlo = 0;
+            zobraz(info, pocitadlo, i);
+        }
+
+        private void všetkyFilmyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Videl.Hide();
+            Dalsi.Show();
+            meno.Show();
+            popis.Show();
+            pictureBox1.Show();
+            i = 2;
+            pocitadlo = 0;
+            zobraz(info, pocitadlo, i);
         }
     }
 }

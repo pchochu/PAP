@@ -121,17 +121,19 @@ namespace Projekt
             }
         }
 
-        public Film nacitajMojFilm(UzivateliaInfo info, int i)
+        public Film nacitajMojFilm(UzivateliaInfo info, int pocitadlo, int i)
         {
             try
             {
                 Film f = new Film();
+                string dotaz;
                 string uzID = info.Id.ToString();
-                string dotaz = "Select * From UzivatelFilm where Uzivatel ='" + uzID + "' and Pozrel ='0'";
+
+                dotaz = specDotaz(i, uzID);
                 SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
-                f.Id = int.Parse(dt.Rows[i][2].ToString());
+                f.Id = int.Parse(dt.Rows[pocitadlo][2].ToString());
                 return nacitajFilm(f.Id);
             }
             catch (IndexOutOfRangeException)
@@ -139,6 +141,41 @@ namespace Projekt
                 return null; 
             }
            }
+
+        private string specDotaz(int i, string uzID)
+        {
+            string dotaz;
+            switch (i)
+            {
+                case 0:
+                    dotaz = "Select * From UzivatelFilm where Uzivatel ='" + uzID + "' and Pozrel ='0'";
+                    return dotaz;
+                case 1:
+                    dotaz = "Select * From UzivatelFilm where Uzivatel ='" + uzID + "' and Pozrel ='1'";
+                    return dotaz;
+                case 2:
+                    dotaz = "Select * From UzivatelFilm where Uzivatel ='" + uzID + "'";
+                    return dotaz;
+                default: return "";
+            }
+        }
+
+        public bool mamFilm(int idFilm, int idUz)
+        {
+            using (SqlConnection sqlconn = new SqlConnection(conn))
+            {
+                    sqlconn.Open();
+                    string Film = idFilm.ToString();
+                    string Uzivatel = idUz.ToString();
+                    string dotaz = "Select * From UzivatelFilm where Uzivatel ='" + Uzivatel + "' and Film ='" + Film + "'";
+                    SqlCommand mamFilm = new SqlCommand(dotaz, sqlconn);
+                    SqlDataReader reader = mamFilm.ExecuteReader();
+                    bool kontr = reader.HasRows ? true : false;
+                    reader.Close();
+                    return kontr;
+               }
+
+            }
 
         public void videl(int uziId, int filmId)
         {
