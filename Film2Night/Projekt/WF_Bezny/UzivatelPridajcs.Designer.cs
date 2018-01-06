@@ -92,6 +92,7 @@
             this.pridaj.TabIndex = 5;
             this.pridaj.Text = "Pridaj";
             this.pridaj.UseVisualStyleBackColor = true;
+            this.pridaj.Click += new System.EventHandler(this.pridaj_Click);
             // 
             // UzivatelPridajcs
             // 

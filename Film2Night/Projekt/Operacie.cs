@@ -82,6 +82,23 @@ namespace Projekt
             }         
         }
 
+        public bool pridajPar(int idUzi, int idFilm)
+        {
+            using (SqlConnection sqlconn = new SqlConnection(conn))
+            {
+                sqlconn.Open();
+                if (kontrolujPar(sqlconn, idUzi, idFilm))
+                {
+                    return true;
+                }
+                else
+                {
+                    pridajParDoDB(sqlconn, idUzi, idFilm);
+                    return false;
+                }
+            }
+        }
+
         public Film nacitajFilm(int i)
         {
             try
@@ -95,6 +112,7 @@ namespace Projekt
                 f.meno = dt.Rows[0][1].ToString();
                 f.popis = dt.Rows[0][2].ToString();
                 f.obrazok = ((byte[])dt.Rows[0][3]);
+                f.Id = int.Parse(dt.Rows[0][0].ToString());
                 return f;
             }
             catch(Exception e)
@@ -115,6 +133,20 @@ namespace Projekt
             return kontr;
         }
 
+        private bool kontrolujPar(SqlConnection sqlconn, int idUzi, int idFilm)
+        {
+            SqlCommand kontroluj = new SqlCommand("KontrolujPar", sqlconn);
+            kontroluj.CommandType = CommandType.StoredProcedure;
+            kontroluj.Parameters.AddWithValue("@idUzi", idUzi);
+            kontroluj.Parameters.AddWithValue("@idFilm", idFilm);
+            SqlDataReader reader = kontroluj.ExecuteReader();
+
+            bool kontr = reader.HasRows ? true : false;
+            reader.Close();
+            return kontr;
+        }
+
+
         private void pridajFilmDoDB(SqlConnection sqlconn, Film film)
         {
             SqlCommand pridaj = new SqlCommand("PridajFilm", sqlconn);
@@ -123,6 +155,16 @@ namespace Projekt
             pridaj.Parameters.AddWithValue("@popis", film.popis);
             pridaj.Parameters.AddWithValue("@obrazok", film.obrazok);
             pridaj.ExecuteNonQuery();
+        }
+
+        private void pridajParDoDB(SqlConnection sqlconn, int idUzi, int idFilm)
+        {
+            SqlCommand pridaj = new SqlCommand("NovyUzivFilm", sqlconn);
+            pridaj.CommandType = CommandType.StoredProcedure;
+            pridaj.Parameters.AddWithValue("@uzivatel", idUzi);
+            pridaj.Parameters.AddWithValue("@film", idFilm);
+            pridaj.ExecuteNonQuery();
+
         }
 
         

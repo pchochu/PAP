@@ -29,11 +29,21 @@ namespace Projekt
         private void UzivatelPridajcs_Load(object sender, EventArgs e)
         {
             f = o.nacitajFilm(pocitadlo);
-            
-            meno.Text = f.meno;
-            popis.Text = f.popis;
-            MemoryStream kktina = new MemoryStream(f.obrazok);
-            obrazok.Image = Image.FromStream(kktina);
+            if (f != null)
+            {
+                meno.Text = f.meno;
+                popis.Text = f.popis;
+                MemoryStream ms = new MemoryStream(f.obrazok);
+                obrazok.Image = Image.FromStream(ms);
+            }
+            else
+            {
+                meno.Text = "V DB nie sú žiadne filmy";
+                popis.Hide();
+                obrazok.Hide();
+                dalsi.Hide();
+                pridaj.Hide();
+            }
         }
 
         private void dalsi_Click(object sender, EventArgs e)
@@ -62,6 +72,23 @@ namespace Projekt
         private void ukonci_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pridaj_Click(object sender, EventArgs e)
+        {
+            f = o.nacitajFilm(pocitadlo);
+            int idFilm = f.Id;
+            int idUzivatel = info.Id;
+
+            if (o.pridajPar(idUzivatel, idFilm))
+            {
+                MessageBox.Show("Takýto film už v DB máš");
+            }
+            else
+            {
+                MessageBox.Show("Film bol pridaný do DB");
+            }
+            
         }
     }
 }

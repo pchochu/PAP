@@ -71,6 +71,7 @@ namespace Projekt
             vyplneny.menoPriezvisko = dt.Rows[0][3].ToString();
             vyplneny.typ = dt.Rows[0][4].ToString();
             vyplneny.userMeno = dt.Rows[0][1].ToString();
+            vyplneny.Id = int.Parse(dt.Rows[0][0].ToString());
             return vyplneny;
         } 
 
