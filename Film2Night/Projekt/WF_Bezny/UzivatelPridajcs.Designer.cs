@@ -48,25 +48,25 @@
             // 
             // obrazok
             // 
-            this.obrazok.Location = new System.Drawing.Point(163, 247);
+            this.obrazok.Location = new System.Drawing.Point(159, 170);
             this.obrazok.Name = "obrazok";
-            this.obrazok.Size = new System.Drawing.Size(796, 663);
+            this.obrazok.Size = new System.Drawing.Size(528, 575);
             this.obrazok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.obrazok.TabIndex = 1;
             this.obrazok.TabStop = false;
             // 
             // popis
             // 
-            this.popis.AutoSize = true;
-            this.popis.Location = new System.Drawing.Point(488, 160);
+            this.popis.Location = new System.Drawing.Point(756, 192);
             this.popis.Name = "popis";
-            this.popis.Size = new System.Drawing.Size(93, 32);
+            this.popis.Size = new System.Drawing.Size(400, 500);
             this.popis.TabIndex = 2;
             this.popis.Text = "label2";
+            this.popis.Click += new System.EventHandler(this.popis_Click);
             // 
             // ukonci
             // 
-            this.ukonci.Location = new System.Drawing.Point(94, 995);
+            this.ukonci.Location = new System.Drawing.Point(62, 875);
             this.ukonci.Name = "ukonci";
             this.ukonci.Size = new System.Drawing.Size(163, 90);
             this.ukonci.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             // dalsi
             // 
-            this.dalsi.Location = new System.Drawing.Point(862, 1001);
+            this.dalsi.Location = new System.Drawing.Point(615, 891);
             this.dalsi.Name = "dalsi";
             this.dalsi.Size = new System.Drawing.Size(179, 84);
             this.dalsi.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             // pridaj
             // 
-            this.pridaj.Location = new System.Drawing.Point(410, 952);
+            this.pridaj.Location = new System.Drawing.Point(259, 842);
             this.pridaj.Name = "pridaj";
             this.pridaj.Size = new System.Drawing.Size(312, 133);
             this.pridaj.TabIndex = 5;

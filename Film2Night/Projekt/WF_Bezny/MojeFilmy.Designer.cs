@@ -85,10 +85,9 @@
             // 
             // popis
             // 
-            this.popis.AutoSize = true;
-            this.popis.Location = new System.Drawing.Point(798, 179);
+            this.popis.Location = new System.Drawing.Point(627, 151);
             this.popis.Name = "popis";
-            this.popis.Size = new System.Drawing.Size(93, 32);
+            this.popis.Size = new System.Drawing.Size(450, 400);
             this.popis.TabIndex = 4;
             this.popis.Text = "label2";
             // 

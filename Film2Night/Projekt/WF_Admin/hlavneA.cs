@@ -41,8 +41,9 @@ namespace Projekt
 
         private void Nove_Click(object sender, EventArgs e)
         {
-            dataFilmy df = new dataFilmy();
-            df.Show();
+            PridajZNetu pn = new PridajZNetu(info);
+            pn.Show();
+            this.Close();
         }
 
         private void filmyToolStripMenuItem_Click(object sender, EventArgs e)

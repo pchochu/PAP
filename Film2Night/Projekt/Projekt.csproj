@@ -52,6 +52,18 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="hladajObrazok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hladajObrazok.Designer.cs">
+      <DependentUpon>hladajObrazok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WF_Admin\PridajZNetu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WF_Admin\PridajZNetu.Designer.cs">
+      <DependentUpon>PridajZNetu.cs</DependentUpon>
+    </Compile>
     <Compile Include="WF_Bezny\MojeFilmy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,12 +73,6 @@
     <Compile Include="Uzivatelia\Admin.cs" />
     <Compile Include="Uzivatelia\Bezny.cs" />
     <Compile Include="Data.cs" />
-    <Compile Include="dataFilmy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="dataFilmy.Designer.cs">
-      <DependentUpon>dataFilmy.cs</DependentUpon>
-    </Compile>
     <Compile Include="Film.cs" />
     <Compile Include="WF_Bezny\hlavne.cs">
       <SubType>Form</SubType>
@@ -120,8 +126,11 @@
     <Compile Include="WF_Admin\ZobrazUzivatelov.Designer.cs">
       <DependentUpon>ZobrazUzivatelov.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="dataFilmy.resx">
-      <DependentUpon>dataFilmy.cs</DependentUpon>
+    <EmbeddedResource Include="hladajObrazok.resx">
+      <DependentUpon>hladajObrazok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WF_Admin\PridajZNetu.resx">
+      <DependentUpon>PridajZNetu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WF_Bezny\MojeFilmy.resx">
       <DependentUpon>MojeFilmy.cs</DependentUpon>

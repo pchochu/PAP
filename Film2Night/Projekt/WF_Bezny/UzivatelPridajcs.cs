@@ -107,5 +107,10 @@ namespace Projekt
             }
             
         }
+
+        private void popis_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
