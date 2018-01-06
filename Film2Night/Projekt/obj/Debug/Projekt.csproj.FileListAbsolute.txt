@@ -36,3 +36,4 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.zobrazFilmy.resources
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.UzivatelPridajcs.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.MojeFilmy.resources

@@ -70,6 +70,7 @@
             this.moje.TabIndex = 3;
             this.moje.Text = "Moje Filmy";
             this.moje.UseVisualStyleBackColor = true;
+            this.moje.Click += new System.EventHandler(this.moje_Click);
             // 
             // hlavne
             // 

@@ -29,5 +29,12 @@ namespace Projekt
             UzivatelPridajcs pridaj = new UzivatelPridajcs(info);
             pridaj.Show();
         }
+
+        private void moje_Click(object sender, EventArgs e)
+        {
+            MojeFilmy mf = new MojeFilmy(info);
+            mf.Show();
+            this.Close();
+        }
     }
 }

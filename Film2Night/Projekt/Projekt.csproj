@@ -52,6 +52,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WF_Bezny\MojeFilmy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WF_Bezny\MojeFilmy.Designer.cs">
+      <DependentUpon>MojeFilmy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Uzivatelia\Admin.cs" />
     <Compile Include="Uzivatelia\Bezny.cs" />
     <Compile Include="Data.cs" />
@@ -116,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="dataFilmy.resx">
       <DependentUpon>dataFilmy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WF_Bezny\MojeFilmy.resx">
+      <DependentUpon>MojeFilmy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WF_Bezny\hlavne.resx">
       <DependentUpon>hlavne.cs</DependentUpon>

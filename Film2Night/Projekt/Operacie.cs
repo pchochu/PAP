@@ -115,11 +115,43 @@ namespace Projekt
                 f.Id = int.Parse(dt.Rows[0][0].ToString());
                 return f;
             }
-            catch(Exception e)
+            catch(IndexOutOfRangeException)
             {
                 return null;
             }
         }
+
+        public Film nacitajMojFilm(UzivateliaInfo info, int i)
+        {
+            try
+            {
+                Film f = new Film();
+                string uzID = info.Id.ToString();
+                string dotaz = "Select * From UzivatelFilm where Uzivatel ='" + uzID + "' and Pozrel ='0'";
+                SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                f.Id = int.Parse(dt.Rows[i][2].ToString());
+                return nacitajFilm(f.Id);
+            }
+            catch (IndexOutOfRangeException)
+            {
+                return null; 
+            }
+           }
+
+        public void videl(int uziId, int filmId)
+        {
+            using (SqlConnection sqlconn = new SqlConnection(conn))
+            {
+       
+                sqlconn.Open();
+                SqlCommand dotaz = new SqlCommand("UPDATE UzivatelFilm set Pozrel = 1 where Uzivatel = " + uziId.ToString() +
+                    " and Film = " + filmId.ToString(), sqlconn);
+                dotaz.ExecuteNonQuery();
+            }
+        }
+
 
         private bool kontrolujFilm(SqlConnection sqlconn, string meno)
         {
