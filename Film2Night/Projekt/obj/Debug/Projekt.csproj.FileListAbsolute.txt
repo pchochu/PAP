@@ -3,7 +3,6 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Projekt.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Projekt.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uvod.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uzivatelia.exe
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\DbOperacie.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Admin.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\WF_Bezny.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Lib_Data.dll
@@ -13,8 +12,6 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uvod.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uvod.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uzivatelia.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Uzivatelia.exe.config
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\DbOperacie.pdb
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\DbOperacie.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Admin.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Admin.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\WF_Bezny.pdb
@@ -27,3 +24,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.csproj.G
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Projekt\bin\Debug\Filmy.pdb

@@ -54,6 +54,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Filmy\Filmy.csproj">
+      <Project>{02447970-2dfd-498e-a883-160b74f632ae}</Project>
+      <Name>Filmy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Uzivatelia\Uzivatelia.csproj">
       <Project>{d2999f85-fd3a-43b4-941b-b5d8e792543e}</Project>
       <Name>Uzivatelia</Name>

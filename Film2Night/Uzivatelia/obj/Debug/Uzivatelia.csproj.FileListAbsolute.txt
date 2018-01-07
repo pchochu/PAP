@@ -6,3 +6,4 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.ex
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.csprojResolveAssemblyReference.cache

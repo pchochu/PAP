@@ -96,9 +96,9 @@
       <Project>{ab55de0a-1a89-49f4-8f3a-efe7d458655e}</Project>
       <Name>WF_Admin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DbOperacie\DbOperacie.csproj">
-      <Project>{428216d8-3589-43ae-ab89-0251e877cacc}</Project>
-      <Name>DbOperacie</Name>
+    <ProjectReference Include="..\Lib_DbOperacie\Lib_DbOperacie.csproj">
+      <Project>{7de26141-e99e-4d55-a46e-779742a87d7f}</Project>
+      <Name>Lib_DbOperacie</Name>
     </ProjectReference>
     <ProjectReference Include="..\Uzivatelia\Uzivatelia.csproj">
       <Project>{d2999f85-fd3a-43b4-941b-b5d8e792543e}</Project>

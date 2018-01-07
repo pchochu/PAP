@@ -1,13 +1,10 @@
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Admin.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Admin.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Admin.pdb
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\DbOperacie.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_Data.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_DbOperacie.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Uzivatelia.exe
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\DbOperacie.pdb
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\DbOperacie.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_Data.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_DbOperacie.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Uzivatelia.pdb
@@ -25,3 +22,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\WF_Admin.csproj.Ge
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\WF_Admin.csproj.CoreCompileInputs.cache
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\Admin.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\Admin.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Filmy.pdb

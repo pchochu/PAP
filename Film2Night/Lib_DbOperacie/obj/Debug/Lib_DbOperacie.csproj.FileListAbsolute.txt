@@ -7,3 +7,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\obj\Debug\Lib_DbOpe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\obj\Debug\Lib_DbOperacie.csproj.CoreCompileInputs.cache
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\obj\Debug\Lib_DbOperacie.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\obj\Debug\Lib_DbOperacie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_DbOperacie\bin\Debug\Filmy.pdb

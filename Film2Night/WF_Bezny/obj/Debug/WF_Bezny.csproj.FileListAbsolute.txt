@@ -13,3 +13,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.csproj
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\WF_Bezny.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Filmy.pdb

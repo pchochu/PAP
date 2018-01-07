@@ -128,9 +128,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DbOperacie\DbOperacie.csproj">
-      <Project>{428216d8-3589-43ae-ab89-0251e877cacc}</Project>
-      <Name>DbOperacie</Name>
+    <ProjectReference Include="..\Filmy\Filmy.csproj">
+      <Project>{02447970-2dfd-498e-a883-160b74f632ae}</Project>
+      <Name>Filmy</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lib_Data\Lib_Data.csproj">
       <Project>{2CA08127-8040-4D85-807C-E0F12357D5D0}</Project>

@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Filmy\Filmy.csproj">
+      <Project>{02447970-2dfd-498e-a883-160b74f632ae}</Project>
+      <Name>Filmy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Uzivatelia\Uzivatelia.csproj">
       <Project>{D2999F85-FD3A-43B4-941B-B5D8E792543E}</Project>
       <Name>Uzivatelia</Name>

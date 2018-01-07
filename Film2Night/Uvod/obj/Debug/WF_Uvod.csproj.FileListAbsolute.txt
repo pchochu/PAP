@@ -8,15 +8,12 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uvod.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uvod.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uvod.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Admin.exe
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\DbOperacie.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uzivatelia.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Lib_Data.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Lib_DbOperacie.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Admin.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Admin.exe.config
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\DbOperacie.pdb
-C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\DbOperacie.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uzivatelia.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Uzivatelia.exe.config
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\WF_Bezny.pdb
@@ -26,3 +23,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Lib_DbOperacie.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\WF_Bezny.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\bin\Debug\Filmy.pdb

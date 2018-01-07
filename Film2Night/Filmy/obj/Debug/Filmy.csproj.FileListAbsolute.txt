@@ -1,0 +1,6 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\bin\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\bin\Debug\Filmy.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.pdb
