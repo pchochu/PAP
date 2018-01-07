@@ -17,9 +17,9 @@ namespace Uzivatelia
             return o.nacitajMojFilm(Id.ToString(),pocitadlo, i);
         }
 
-        public override void videl(int id)
+        public override void videl(int Filmid)
         {
-            o.videl(Id, id);
+            o.videl(Id, Filmid);
         }
     }
 }

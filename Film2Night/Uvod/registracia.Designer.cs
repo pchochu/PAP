@@ -48,6 +48,7 @@
             this.TlacitkoRegistracia.TabIndex = 17;
             this.TlacitkoRegistracia.Text = "Registrácia";
             this.TlacitkoRegistracia.UseVisualStyleBackColor = true;
+            this.TlacitkoRegistracia.Click += new System.EventHandler(this.TlacitkoRegistracia_Click_1);
             // 
             // label4
             // 

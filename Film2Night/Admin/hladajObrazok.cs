@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using System.IO;
 using Lib_DbOperacie;
 using Filmy;
+using System.Text.RegularExpressions;
+using System.Net;
 
 namespace Admin
 {
@@ -29,12 +31,12 @@ namespace Admin
             this.meno = meno;
             this.popis = popis;
             this.info = info;
-            this.url = url;
+            this.url = "http://image.tmdb.org/t/p/w185/" + url;
         }
 
         private void hladajObrazok_Load(object sender, EventArgs e)
         {
-            obraz.ImageLocation = "http://image.tmdb.org/t/p/w185/" + url;
+            obraz.ImageLocation = url;
         }
 
         private void Pridaj_Click(object sender, EventArgs e)
@@ -65,12 +67,18 @@ namespace Admin
         private byte[] Obrazok()
         {
             byte[] obrazok = null;
-
-            FileStream stream = new FileStream(miesto, FileMode.Open, FileAccess.Read);
-            BinaryReader br = new BinaryReader(stream);
-            obrazok = br.ReadBytes((int)stream.Length);
-
-            return obrazok;
+            try
+            {
+                FileStream stream = new FileStream(miesto, FileMode.Open, FileAccess.Read);
+                BinaryReader br = new BinaryReader(stream);
+                obrazok = br.ReadBytes((int)stream.Length);
+                return obrazok;
+            }
+            catch (ArgumentException)
+            {
+                var webClient = new WebClient();
+                return webClient.DownloadData(url);
+            }
         }
 
         private Film vyplnInfo()

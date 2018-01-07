@@ -21,35 +21,7 @@ namespace Uvod
             InitializeComponent();
         }
 
-        private void TlacitkoRegistracia_Click(object sender, EventArgs e)
-        {
-            if (KontrolaUdajov())
-            {
-                MessageBox.Show("Prosim vypln vsetko");
-            }
-            else if (KontrolaHesiel())
-            {
-                MessageBox.Show("Hesla sa nezhoduju");
-            }
-            else
-            {
-
-                UzivateliaInfo informacie = vyplnInfo();
-
-                if (informacie.zaregistruj())
-                {
-                    MessageBox.Show("Bol si zaregistrovany");
-                    zobrazLi();
-                }
-                else
-                {
-                    MessageBox.Show("Uzivatel s takymto menom uz existuje");
-                }
-
-            }
-
-            Clear();
-        }
+       
 
         private void Clear()
         {
@@ -82,6 +54,36 @@ namespace Uvod
             logIn li = new logIn();
             this.Hide();
             li.Show();
+        }
+
+        private void TlacitkoRegistracia_Click_1(object sender, EventArgs e)
+        {
+            if (KontrolaUdajov())
+            {
+                MessageBox.Show("Prosim vypln vsetko");
+            }
+            else if (KontrolaHesiel())
+            {
+                MessageBox.Show("Hesla sa nezhoduju");
+            }
+            else
+            {
+
+                UzivateliaInfo informacie = vyplnInfo();
+
+                if (informacie.zaregistruj())
+                {
+                    MessageBox.Show("Bol si zaregistrovany");
+                    zobrazLi();
+                }
+                else
+                {
+                    MessageBox.Show("Uzivatel s takymto menom uz existuje");
+                }
+
+            }
+
+            Clear();
         }
     }
 }

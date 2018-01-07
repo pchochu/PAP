@@ -17,7 +17,7 @@ namespace Uvod
 {
     public partial class logIn : Form
     {
-        UzivateliaInfo info = new UzivateliaInfo();
+        UzivateliaInfo admin = new UzivateliaInfo();
         UzivateliaInfo bezny = new Bezny();
         public logIn()
         {
@@ -33,7 +33,7 @@ namespace Uvod
             {
                 if (dt.Rows[0][4].ToString().Equals("A"))
                 {
-                    UzivateliaInfo admin = new UzivateliaInfo();
+                    
                     admin = vyplnUzivatela(dt);
                     otvorAdmin(admin);
                 }
@@ -80,9 +80,9 @@ namespace Uvod
             return vyplneny;
         }
 
-        public Bezny vyplnBezneho(DataTable dt)
+        public UzivateliaInfo vyplnBezneho(DataTable dt)
         {
-            Bezny vyplneny = new Bezny();
+            UzivateliaInfo vyplneny = new Bezny();
             vyplneny.menoPriezvisko = dt.Rows[0][3].ToString();
             vyplneny.typ = dt.Rows[0][4].ToString();
             vyplneny.userMeno = dt.Rows[0][1].ToString();
@@ -91,9 +91,9 @@ namespace Uvod
         }
 
 
-        public void otvorAdmin(UzivateliaInfo informacie)
+        public void otvorAdmin(UzivateliaInfo admin)
         {
-            hlavneA hlA = new hlavneA(informacie);
+            hlavneA hlA = new hlavneA(admin);
             this.Hide();
             hlA.Show();
         }

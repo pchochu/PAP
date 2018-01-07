@@ -13,27 +13,27 @@ namespace WF_Bezny
 {
     public partial class hlavne : Form
     {
-        UzivateliaInfo info = new Bezny();
+        UzivateliaInfo bezny = new Bezny();
         public hlavne(UzivateliaInfo info)
         {
             InitializeComponent();
-            this.info = info;
+            this.bezny = info;
         }
 
         private void hlavne_Load(object sender, EventArgs e)
         {
-            meno.Text = info.menoPriezvisko;
+            meno.Text = bezny.menoPriezvisko;
         }
 
         private void pridaj_Click(object sender, EventArgs e)
         {
-            UzivatelPridajcs pridaj = new UzivatelPridajcs(info);
+            UzivatelPridajcs pridaj = new UzivatelPridajcs(bezny);
             pridaj.Show();
         }
 
         private void moje_Click(object sender, EventArgs e)
         {
-            MojeFilmy mf = new MojeFilmy(info);
+            MojeFilmy mf = new MojeFilmy(bezny);
             mf.Show();
         }
     }

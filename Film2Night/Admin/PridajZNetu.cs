@@ -30,7 +30,6 @@ namespace Admin
         {
             try
             {
-                json = d.napln();
                 i++;
                 meno.Text = json[i].meno;
                 popis.Text = json[i].popis;
@@ -57,10 +56,17 @@ namespace Admin
 
         private void PridajZNetu_Load(object sender, EventArgs e)
         {
-            json = d.napln();
-
-            meno.Text = json[i].meno;
-            popis.Text = json[i].popis;
+            try
+            {
+                json = d.napln();
+                meno.Text = json[i].meno;
+                popis.Text = json[i].popis;
+            }
+            catch (System.NullReferenceException)
+            {
+                MessageBox.Show("Nie si pripojený k internetu");
+                this.Close();
+            }
         }
     }
 }
