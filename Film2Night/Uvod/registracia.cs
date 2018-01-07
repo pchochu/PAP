@@ -14,7 +14,7 @@ namespace Uvod
 {
     public partial class registracia : Form
     {
-        UzivateliaInfo info = new UzivateliaInfo();
+        UzivateliaInfo info = new Bezny();
         Operacie op = new Operacie();
         public registracia()
         {
@@ -69,9 +69,9 @@ namespace Uvod
             else
             {
 
-                UzivateliaInfo informacie = vyplnInfo();
+                info = vyplnInfo();
 
-                if (informacie.zaregistruj())
+                if (info.zaregistruj())
                 {
                     MessageBox.Show("Bol si zaregistrovany");
                     zobrazLi();

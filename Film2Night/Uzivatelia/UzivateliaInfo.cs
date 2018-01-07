@@ -19,16 +19,9 @@ namespace Uzivatelia
         public string typ { get; set; }
         public int Id { get; set; }
 
-        public bool zaregistruj()
+        public virtual bool zaregistruj()
         {
-            if(o.zaregistruj(heslo, userMeno, menoPriezvisko))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return true; 
         }
 
         public DataTable logIn()
@@ -45,6 +38,11 @@ namespace Uzivatelia
         public virtual void videl(int id)
         {
 
+        }
+
+        public virtual string text()
+        {
+            return "som v uzivatelovi";
         }
     }
 }

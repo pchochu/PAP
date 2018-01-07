@@ -13,7 +13,7 @@ namespace Admin
 {
     public partial class hlavneA : Form
     {
-        UzivateliaInfo info = new UzivateliaInfo();
+        UzivateliaInfo info = new Adm();
         public hlavneA(UzivateliaInfo info)
         {
             InitializeComponent();
@@ -47,6 +47,13 @@ namespace Admin
         private void hlavneA_Load(object sender, EventArgs e)
         {
             meno.Text = info.menoPriezvisko;
+        }
+
+        private void pridaj_Click(object sender, EventArgs e)
+        {
+            RegistraciaAdmin ra = new RegistraciaAdmin(info);
+            this.Close();
+            ra.Show();
         }
     }
 }

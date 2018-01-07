@@ -36,6 +36,7 @@
             this.zobraziťToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filmyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uživateľovToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pridaj = new System.Windows.Forms.Button();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,7 +90,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
-            this.menuStrip2.Size = new System.Drawing.Size(1257, 58);
+            this.menuStrip2.Size = new System.Drawing.Size(1257, 55);
             this.menuStrip2.TabIndex = 6;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -99,22 +100,32 @@
             this.filmyToolStripMenuItem,
             this.uživateľovToolStripMenuItem});
             this.zobraziťToolStripMenuItem.Name = "zobraziťToolStripMenuItem";
-            this.zobraziťToolStripMenuItem.Size = new System.Drawing.Size(142, 48);
+            this.zobraziťToolStripMenuItem.Size = new System.Drawing.Size(142, 45);
             this.zobraziťToolStripMenuItem.Text = "Zobraziť";
             // 
             // filmyToolStripMenuItem
             // 
             this.filmyToolStripMenuItem.Name = "filmyToolStripMenuItem";
-            this.filmyToolStripMenuItem.Size = new System.Drawing.Size(326, 46);
+            this.filmyToolStripMenuItem.Size = new System.Drawing.Size(270, 46);
             this.filmyToolStripMenuItem.Text = "Filmy";
             this.filmyToolStripMenuItem.Click += new System.EventHandler(this.filmyToolStripMenuItem_Click);
             // 
             // uživateľovToolStripMenuItem
             // 
             this.uživateľovToolStripMenuItem.Name = "uživateľovToolStripMenuItem";
-            this.uživateľovToolStripMenuItem.Size = new System.Drawing.Size(326, 46);
+            this.uživateľovToolStripMenuItem.Size = new System.Drawing.Size(270, 46);
             this.uživateľovToolStripMenuItem.Text = "Uživateľov";
             this.uživateľovToolStripMenuItem.Click += new System.EventHandler(this.uživateľovToolStripMenuItem_Click);
+            // 
+            // pridaj
+            // 
+            this.pridaj.Location = new System.Drawing.Point(651, 99);
+            this.pridaj.Name = "pridaj";
+            this.pridaj.Size = new System.Drawing.Size(371, 100);
+            this.pridaj.TabIndex = 11;
+            this.pridaj.Text = "Pridaj nového admina";
+            this.pridaj.UseVisualStyleBackColor = true;
+            this.pridaj.Click += new System.EventHandler(this.pridaj_Click);
             // 
             // hlavneA
             // 
@@ -122,6 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1257, 861);
+            this.Controls.Add(this.pridaj);
             this.Controls.Add(this.Nove);
             this.Controls.Add(this.Vlastny);
             this.Controls.Add(this.meno);
@@ -147,5 +159,6 @@
         private System.Windows.Forms.ToolStripMenuItem zobraziťToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem filmyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uživateľovToolStripMenuItem;
+        private System.Windows.Forms.Button pridaj;
     }
 }

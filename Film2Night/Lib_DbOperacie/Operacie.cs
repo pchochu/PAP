@@ -33,6 +33,24 @@ namespace Lib_DbOperacie
             }
         }
 
+        public bool zaregistrujAdmina(string heslo, string userMeno, string menoPriezvisko)
+        {
+            using (SqlConnection sqlconn = new SqlConnection(conn))
+            {
+                sqlconn.Open();
+                if (kontrolujUzivatela(sqlconn, userMeno))
+                {
+                    return false;
+                }
+                else
+                {
+                    pridajAdmina(sqlconn, heslo, userMeno, menoPriezvisko);
+                    return true;
+                }
+
+            }
+        }
+
         private bool kontrolujUzivatela(SqlConnection sqlconn, string meno)
         {
             SqlCommand kontroluj = new SqlCommand("KontrolujExistuje", sqlconn);
@@ -48,6 +66,16 @@ namespace Lib_DbOperacie
         private void pridajUzivatela(SqlConnection sqlconn, string heslo, string userMeno, string menoPriezvisko)
         {
             SqlCommand pridaj = new SqlCommand("PridajUzivatela", sqlconn);
+            pridaj.CommandType = CommandType.StoredProcedure;
+            pridaj.Parameters.AddWithValue("@meno", userMeno);
+            pridaj.Parameters.AddWithValue("@heslo", heslo);
+            pridaj.Parameters.AddWithValue("@menoPriezvisko", menoPriezvisko);
+            pridaj.ExecuteNonQuery();
+        }
+
+        private void pridajAdmina(SqlConnection sqlconn, string heslo, string userMeno, string menoPriezvisko)
+        {
+            SqlCommand pridaj = new SqlCommand("PridajAdmina", sqlconn);
             pridaj.CommandType = CommandType.StoredProcedure;
             pridaj.Parameters.AddWithValue("@meno", userMeno);
             pridaj.Parameters.AddWithValue("@heslo", heslo);

@@ -21,5 +21,17 @@ namespace Uzivatelia
         {
             o.videl(Id, Filmid);
         }
+
+        public override bool zaregistruj()
+        {
+            if (o.zaregistruj(heslo, userMeno, menoPriezvisko))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
