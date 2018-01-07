@@ -16,7 +16,7 @@ namespace WF_Bezny
         [STAThread]
         static void Main()
         {
-            UzivateliaInfo vyplneny = new UzivateliaInfo();
+            Bezny vyplneny = new Bezny();
             vyplneny.menoPriezvisko = "Peter Novak";
             vyplneny.typ = "U";
             vyplneny.userMeno = "Peter";

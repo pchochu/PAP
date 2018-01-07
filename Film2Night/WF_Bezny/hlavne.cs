@@ -13,7 +13,7 @@ namespace WF_Bezny
 {
     public partial class hlavne : Form
     {
-        UzivateliaInfo info = new UzivateliaInfo();
+        UzivateliaInfo info = new Bezny();
         public hlavne(UzivateliaInfo info)
         {
             InitializeComponent();

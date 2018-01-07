@@ -16,9 +16,9 @@ namespace WF_Bezny
 {
     public partial class MojeFilmy : Form
     {
-        Operacie o = new Operacie();
-        UzivateliaInfo info = new UzivateliaInfo();
+        UzivateliaInfo info = new Bezny();
         int pocitadlo = 0;
+        // i = nevidel, videl, vsetky
         int i = 0;
         public MojeFilmy(UzivateliaInfo info)
         {
@@ -40,8 +40,8 @@ namespace WF_Bezny
         private void Videl_Click(object sender, EventArgs e)
         {
             Film f = new Film();
-            f = o.nacitajMojFilm(info, pocitadlo, 0);
-            o.videl(info.Id, f.Id);
+            f = info.NacitajMojFilm(pocitadlo, 0);
+            info.videl(f.Id);
             MessageBox.Show("Film bol nastavený na už videný");
         }
 
@@ -54,7 +54,7 @@ namespace WF_Bezny
         private void zobraz(UzivateliaInfo info, int pocitadlo, int i)
         {
             Film f = new Film();
-            f = o.nacitajMojFilm(info, pocitadlo, i);
+            f = info.NacitajMojFilm(pocitadlo, i);
             if (f == null)
             {
                 popis.Text = "V DB už nemáš ďalšie filmy";

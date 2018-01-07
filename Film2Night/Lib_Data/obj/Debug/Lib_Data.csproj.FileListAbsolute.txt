@@ -11,3 +11,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Filmy.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Filmy.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_DbOperacie.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_DbOperacie.pdb

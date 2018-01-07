@@ -58,5 +58,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Filmy\Filmy.csproj">
+      <Project>{02447970-2dfd-498e-a883-160b74f632ae}</Project>
+      <Name>Filmy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_DbOperacie\Lib_DbOperacie.csproj">
+      <Project>{7de26141-e99e-4d55-a46e-779742a87d7f}</Project>
+      <Name>Lib_DbOperacie</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

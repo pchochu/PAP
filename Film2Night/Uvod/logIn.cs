@@ -18,7 +18,7 @@ namespace Uvod
     public partial class logIn : Form
     {
         UzivateliaInfo info = new UzivateliaInfo();
-        Operacie op = new Operacie();
+        UzivateliaInfo bezny = new Bezny();
         public logIn()
         {
             InitializeComponent();
@@ -27,14 +27,21 @@ namespace Uvod
         private void button1_Click(object sender, EventArgs e)
         {
             UzivateliaInfo informacie = vyplnInfo();
-            DataTable dt = op.logIn(informacie);
+            DataTable dt = informacie.logIn();
 
             if (dt.Rows.Count == 1)
             {
-
-                UzivateliaInfo prihlaseny = vyplnUzivatela(dt);
-
-                prihlas(prihlaseny);
+                if (dt.Rows[0][4].ToString().Equals("A"))
+                {
+                    UzivateliaInfo admin = new UzivateliaInfo();
+                    admin = vyplnUzivatela(dt);
+                    otvorAdmin(admin);
+                }
+                else
+                {
+                    bezny = vyplnBezneho(dt);
+                    otvorBezne(bezny);
+                }
 
             }
             else
@@ -73,17 +80,16 @@ namespace Uvod
             return vyplneny;
         }
 
-        public void prihlas(UzivateliaInfo prihlaseny)
+        public Bezny vyplnBezneho(DataTable dt)
         {
-            if (prihlaseny.typ.Equals("A"))
-            {
-                otvorAdmin(prihlaseny);
-            }
-            else
-            {
-                otvorBezne(prihlaseny);
-            }
+            Bezny vyplneny = new Bezny();
+            vyplneny.menoPriezvisko = dt.Rows[0][3].ToString();
+            vyplneny.typ = dt.Rows[0][4].ToString();
+            vyplneny.userMeno = dt.Rows[0][1].ToString();
+            vyplneny.Id = int.Parse(dt.Rows[0][0].ToString());
+            return vyplneny;
         }
+
 
         public void otvorAdmin(UzivateliaInfo informacie)
         {
@@ -92,9 +98,9 @@ namespace Uvod
             hlA.Show();
         }
 
-        public void otvorBezne(UzivateliaInfo informacie)
+        public void otvorBezne(UzivateliaInfo bezny)
         {
-            hlavne hl = new hlavne(informacie);
+            hlavne hl = new hlavne(bezny);
             this.Hide();
             hl.Show();
         }

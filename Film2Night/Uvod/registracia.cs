@@ -35,7 +35,8 @@ namespace Uvod
             {
 
                 UzivateliaInfo informacie = vyplnInfo();
-                if (op.zaregistruj(informacie))
+
+                if (informacie.zaregistruj())
                 {
                     MessageBox.Show("Bol si zaregistrovany");
                     zobrazLi();

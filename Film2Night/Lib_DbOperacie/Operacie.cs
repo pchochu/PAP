@@ -5,7 +5,6 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Uzivatelia;
 using Filmy;
 
 namespace Lib_DbOperacie
@@ -16,18 +15,18 @@ namespace Lib_DbOperacie
                      AttachDbFilename=C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Databaza\DB.mdf;
                      Integrated Security=True; Connect Timeout=30");
 
-        public bool zaregistruj(UzivateliaInfo info)
+        public bool zaregistruj(string heslo, string userMeno, string menoPriezvisko)
         {
             using (SqlConnection sqlconn = new SqlConnection(conn))
             {
                 sqlconn.Open();
-                if (kontrolujUzivatela(sqlconn, info.userMeno))
+                if (kontrolujUzivatela(sqlconn, userMeno))
                 {
                     return false;
                 }
                 else
                 {
-                    pridajUzivatela(sqlconn, info);
+                    pridajUzivatela(sqlconn, heslo, userMeno, menoPriezvisko);
                     return true;
                 }
 
@@ -46,19 +45,19 @@ namespace Lib_DbOperacie
             return kontr;
         }
 
-        private void pridajUzivatela(SqlConnection sqlconn, UzivateliaInfo info)
+        private void pridajUzivatela(SqlConnection sqlconn, string heslo, string userMeno, string menoPriezvisko)
         {
             SqlCommand pridaj = new SqlCommand("PridajUzivatela", sqlconn);
             pridaj.CommandType = CommandType.StoredProcedure;
-            pridaj.Parameters.AddWithValue("@meno", info.userMeno);
-            pridaj.Parameters.AddWithValue("@heslo", info.heslo);
-            pridaj.Parameters.AddWithValue("@menoPriezvisko", info.menoPriezvisko);
+            pridaj.Parameters.AddWithValue("@meno", userMeno);
+            pridaj.Parameters.AddWithValue("@heslo", heslo);
+            pridaj.Parameters.AddWithValue("@menoPriezvisko", menoPriezvisko);
             pridaj.ExecuteNonQuery();
         }
 
-        public DataTable logIn(UzivateliaInfo info)
+        public DataTable logIn(string userMeno, string heslo)
         {
-            string dotaz = "Select * from [Table] Where meno = '" + info.userMeno + "' and heslo = '" + info.heslo + "'";
+            string dotaz = "Select * from [Table] Where meno = '" + userMeno + "' and heslo = '" + heslo + "'";
             SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
             DataTable dt = new DataTable();
             sda.Fill(dt);
@@ -122,15 +121,14 @@ namespace Lib_DbOperacie
             }
         }
 
-        public Film nacitajMojFilm(UzivateliaInfo info, int pocitadlo, int i)
+        public Film nacitajMojFilm(string id, int pocitadlo, int i)
         {
             try
             {
                 Film f = new Film();
                 string dotaz;
-                string uzID = info.Id.ToString();
 
-                dotaz = specDotaz(i, uzID);
+                dotaz = specDotaz(i, id);
                 SqlDataAdapter sda = new SqlDataAdapter(dotaz, conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
