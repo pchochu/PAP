@@ -1,0 +1,6 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.logIn.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.Properties.Resources.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.csproj.GenerateResource.Cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uvod\obj\Debug\Uvod.registracia.resources

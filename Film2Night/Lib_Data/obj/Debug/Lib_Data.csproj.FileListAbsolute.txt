@@ -1,0 +1,11 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_Data.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_Data.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Uzivatelia.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Uzivatelia.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Uzivatelia.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\obj\Debug\Lib_Data.pdb

@@ -1,0 +1,12 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\DbOperacie.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\DbOperacie.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\DbOperacie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\Uzivatelia.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\Uzivatelia.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\Uzivatelia.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\obj\Debug\DbOperacie.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\obj\Debug\DbOperacie.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\obj\Debug\DbOperacie.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\obj\Debug\DbOperacie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\DbOperacie\bin\Debug\Newtonsoft.Json.xml

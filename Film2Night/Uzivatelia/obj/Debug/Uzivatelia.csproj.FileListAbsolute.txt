@@ -1,0 +1,8 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Uzivatelia.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Uzivatelia.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Uzivatelia.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\obj\Debug\Uzivatelia.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Uzivatelia\bin\Debug\Newtonsoft.Json.xml

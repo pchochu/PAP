@@ -1,0 +1,15 @@
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\WF_Bezny.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Lib_DbOperacie.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Uzivatelia.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Lib_DbOperacie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Uzivatelia.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Uzivatelia.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.hlavne.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.MojeFilmy.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.UzivatelPridajcs.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.csproj.GenerateResource.Cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\WF_Bezny.exe
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.exe
