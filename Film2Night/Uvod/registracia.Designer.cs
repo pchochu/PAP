@@ -37,11 +37,12 @@
             this.heslo = new System.Windows.Forms.TextBox();
             this.userMeno = new System.Windows.Forms.TextBox();
             this.menoPriezvisko = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TlacitkoRegistracia
             // 
-            this.TlacitkoRegistracia.Location = new System.Drawing.Point(395, 346);
+            this.TlacitkoRegistracia.Location = new System.Drawing.Point(400, 467);
             this.TlacitkoRegistracia.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.TlacitkoRegistracia.Name = "TlacitkoRegistracia";
             this.TlacitkoRegistracia.Size = new System.Drawing.Size(200, 55);
@@ -53,7 +54,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(128, 270);
+            this.label4.Location = new System.Drawing.Point(133, 391);
             this.label4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(193, 32);
@@ -62,16 +63,17 @@
             // 
             // heslo2
             // 
-            this.heslo2.Location = new System.Drawing.Point(365, 270);
+            this.heslo2.Location = new System.Drawing.Point(370, 391);
             this.heslo2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.heslo2.Name = "heslo2";
+            this.heslo2.PasswordChar = '*';
             this.heslo2.Size = new System.Drawing.Size(260, 38);
             this.heslo2.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(168, 208);
+            this.label3.Location = new System.Drawing.Point(173, 329);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 32);
@@ -81,7 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(101, 141);
+            this.label2.Location = new System.Drawing.Point(106, 262);
             this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(240, 32);
@@ -91,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 79);
+            this.label1.Location = new System.Drawing.Point(106, 200);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(246, 32);
@@ -100,15 +102,16 @@
             // 
             // heslo
             // 
-            this.heslo.Location = new System.Drawing.Point(365, 208);
+            this.heslo.Location = new System.Drawing.Point(370, 329);
             this.heslo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.heslo.Name = "heslo";
+            this.heslo.PasswordChar = '*';
             this.heslo.Size = new System.Drawing.Size(260, 38);
             this.heslo.TabIndex = 11;
             // 
             // userMeno
             // 
-            this.userMeno.Location = new System.Drawing.Point(365, 141);
+            this.userMeno.Location = new System.Drawing.Point(370, 262);
             this.userMeno.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.userMeno.Name = "userMeno";
             this.userMeno.Size = new System.Drawing.Size(260, 38);
@@ -116,18 +119,29 @@
             // 
             // menoPriezvisko
             // 
-            this.menoPriezvisko.Location = new System.Drawing.Point(365, 79);
+            this.menoPriezvisko.Location = new System.Drawing.Point(370, 200);
             this.menoPriezvisko.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.menoPriezvisko.Name = "menoPriezvisko";
             this.menoPriezvisko.Size = new System.Drawing.Size(260, 38);
             this.menoPriezvisko.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(256, 55);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(231, 46);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Registrácia";
             // 
             // registracia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(726, 481);
+            this.ClientSize = new System.Drawing.Size(726, 614);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.TlacitkoRegistracia);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.heslo2);
@@ -155,5 +169,6 @@
         private System.Windows.Forms.TextBox heslo;
         private System.Windows.Forms.TextBox userMeno;
         private System.Windows.Forms.TextBox menoPriezvisko;
+        private System.Windows.Forms.Label label5;
     }
 }

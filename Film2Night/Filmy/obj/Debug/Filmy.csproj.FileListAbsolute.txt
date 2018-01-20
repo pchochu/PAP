@@ -4,3 +4,5 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.csprojResolv
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.csproj.CoreCompileInputs.cache
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\obj\Debug\Filmy.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\bin\Debug\Filmy.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Filmy\bin\Debug\Oracle.ManagedDataAccess.dll

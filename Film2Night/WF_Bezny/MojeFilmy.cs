@@ -74,7 +74,11 @@ namespace WF_Bezny
 
         private void nevidenéFilmyToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            meno.Show();
             Videl.Show();
+            popis.Show();
+            pictureBox1.Show();
+            Dalsi.Show();
             i = 0;
             pocitadlo = 0;
             zobraz(info, pocitadlo, i);

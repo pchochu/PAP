@@ -13,3 +13,7 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Filmy.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Filmy.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_DbOperacie.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_DbOperacie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_Data.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Filmy.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Lib_Data\bin\Debug\Lib_DbOperacie.dll.config

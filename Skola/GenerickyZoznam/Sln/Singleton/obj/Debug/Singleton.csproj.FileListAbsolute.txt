@@ -1,0 +1,7 @@
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\bin\Debug\Singleton.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\obj\Debug\Singleton.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\obj\Debug\Singleton.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache

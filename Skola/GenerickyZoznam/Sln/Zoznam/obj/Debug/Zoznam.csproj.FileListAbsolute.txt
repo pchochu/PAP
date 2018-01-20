@@ -1,0 +1,7 @@
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\obj\Debug\Zoznam.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\obj\Debug\Zoznam.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\bin\Debug\Zoznam.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\bin\Debug\Zoznam.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\bin\Debug\Zoznam.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\obj\Debug\Zoznam.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\GenerickyZoznam\Sln\Zoznam\obj\Debug\Zoznam.pdb

@@ -52,7 +52,6 @@ namespace Admin
         private void pridaj_Click(object sender, EventArgs e)
         {
             RegistraciaAdmin ra = new RegistraciaAdmin(info);
-            this.Close();
             ra.Show();
         }
     }

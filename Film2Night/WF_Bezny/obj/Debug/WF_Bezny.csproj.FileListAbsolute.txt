@@ -15,3 +15,7 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\WF_Bezny.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\obj\Debug\WF_Bezny.exe
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Filmy.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Filmy.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\WF_Bezny.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Filmy.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\WF_Bezny\bin\Debug\Lib_DbOperacie.dll.config

@@ -34,12 +34,13 @@
             this.popis = new System.Windows.Forms.Label();
             this.obrazok = new System.Windows.Forms.PictureBox();
             this.meno = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.obrazok)).BeginInit();
             this.SuspendLayout();
             // 
             // pridaj
             // 
-            this.pridaj.Location = new System.Drawing.Point(295, 869);
+            this.pridaj.Location = new System.Drawing.Point(302, 964);
             this.pridaj.Name = "pridaj";
             this.pridaj.Size = new System.Drawing.Size(312, 133);
             this.pridaj.TabIndex = 11;
@@ -49,7 +50,7 @@
             // 
             // dalsi
             // 
-            this.dalsi.Location = new System.Drawing.Point(651, 918);
+            this.dalsi.Location = new System.Drawing.Point(658, 1013);
             this.dalsi.Name = "dalsi";
             this.dalsi.Size = new System.Drawing.Size(179, 84);
             this.dalsi.TabIndex = 10;
@@ -59,7 +60,7 @@
             // 
             // ukonci
             // 
-            this.ukonci.Location = new System.Drawing.Point(98, 902);
+            this.ukonci.Location = new System.Drawing.Point(105, 997);
             this.ukonci.Name = "ukonci";
             this.ukonci.Size = new System.Drawing.Size(163, 90);
             this.ukonci.TabIndex = 9;
@@ -69,7 +70,7 @@
             // 
             // popis
             // 
-            this.popis.Location = new System.Drawing.Point(792, 219);
+            this.popis.Location = new System.Drawing.Point(799, 314);
             this.popis.Name = "popis";
             this.popis.Size = new System.Drawing.Size(400, 500);
             this.popis.TabIndex = 8;
@@ -77,7 +78,7 @@
             // 
             // obrazok
             // 
-            this.obrazok.Location = new System.Drawing.Point(195, 197);
+            this.obrazok.Location = new System.Drawing.Point(202, 292);
             this.obrazok.Name = "obrazok";
             this.obrazok.Size = new System.Drawing.Size(528, 575);
             this.obrazok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,11 +88,21 @@
             // meno
             // 
             this.meno.AutoSize = true;
-            this.meno.Location = new System.Drawing.Point(524, 76);
+            this.meno.Location = new System.Drawing.Point(531, 171);
             this.meno.Name = "meno";
             this.meno.Size = new System.Drawing.Size(93, 32);
             this.meno.TabIndex = 6;
             this.meno.Text = "label1";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(194, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(569, 46);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Pridaj film do svojej databázy";
             // 
             // UzivatelPridajcs
             // 
@@ -99,6 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1471, 1142);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pridaj);
             this.Controls.Add(this.dalsi);
             this.Controls.Add(this.ukonci);
@@ -122,5 +134,6 @@
         private System.Windows.Forms.Label popis;
         private System.Windows.Forms.PictureBox obrazok;
         private System.Windows.Forms.Label meno;
+        private System.Windows.Forms.Label label3;
     }
 }

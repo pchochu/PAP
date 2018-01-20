@@ -25,3 +25,7 @@ C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\Admin.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Filmy.dll
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Filmy.pdb
 C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\obj\Debug\Admin.RegistraciaAdmin.resources
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Filmy.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_Data.dll.config
+C:\Users\Peto\Documents\GitHub\PAP\Film2Night\Admin\bin\Debug\Lib_DbOperacie.dll.config

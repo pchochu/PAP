@@ -41,13 +41,14 @@
             this.nevidenéFilmyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.videnéFilmyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.všetkyFilmyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Koniec
             // 
-            this.Koniec.Location = new System.Drawing.Point(191, 705);
+            this.Koniec.Location = new System.Drawing.Point(232, 874);
             this.Koniec.Name = "Koniec";
             this.Koniec.Size = new System.Drawing.Size(151, 116);
             this.Koniec.TabIndex = 10;
@@ -57,7 +58,7 @@
             // 
             // Videl
             // 
-            this.Videl.Location = new System.Drawing.Point(459, 700);
+            this.Videl.Location = new System.Drawing.Point(500, 869);
             this.Videl.Name = "Videl";
             this.Videl.Size = new System.Drawing.Size(167, 121);
             this.Videl.TabIndex = 9;
@@ -67,7 +68,7 @@
             // 
             // Dalsi
             // 
-            this.Dalsi.Location = new System.Drawing.Point(728, 700);
+            this.Dalsi.Location = new System.Drawing.Point(769, 869);
             this.Dalsi.Name = "Dalsi";
             this.Dalsi.Size = new System.Drawing.Size(153, 121);
             this.Dalsi.TabIndex = 8;
@@ -77,7 +78,7 @@
             // 
             // popis
             // 
-            this.popis.Location = new System.Drawing.Point(617, 173);
+            this.popis.Location = new System.Drawing.Point(658, 342);
             this.popis.Name = "popis";
             this.popis.Size = new System.Drawing.Size(450, 400);
             this.popis.TabIndex = 12;
@@ -86,7 +87,7 @@
             // meno
             // 
             this.meno.AutoSize = true;
-            this.meno.Location = new System.Drawing.Point(283, 115);
+            this.meno.Location = new System.Drawing.Point(324, 284);
             this.meno.Name = "meno";
             this.meno.Size = new System.Drawing.Size(93, 32);
             this.meno.TabIndex = 11;
@@ -94,7 +95,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(94, 224);
+            this.pictureBox1.Location = new System.Drawing.Point(135, 393);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(455, 381);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,12 +164,23 @@
             this.všetkyFilmyToolStripMenuItem.Text = "Všetky filmy";
             this.všetkyFilmyToolStripMenuItem.Click += new System.EventHandler(this.všetkyFilmyToolStripMenuItem_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(492, 131);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(224, 46);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Moje Filmy";
+            // 
             // MojeFilmy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1276, 1058);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.toolStrip3);
             this.Controls.Add(this.Koniec);
@@ -204,5 +216,6 @@
         private System.Windows.Forms.ToolStripMenuItem nevidenéFilmyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem videnéFilmyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem všetkyFilmyToolStripMenuItem;
+        private System.Windows.Forms.Label label3;
     }
 }

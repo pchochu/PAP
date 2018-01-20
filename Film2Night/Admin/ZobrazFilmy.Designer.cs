@@ -29,17 +29,28 @@
         private void InitializeComponent()
         {
             this.nahladFilmy = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nahladFilmy)).BeginInit();
             this.SuspendLayout();
             // 
             // nahladFilmy
             // 
             this.nahladFilmy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.nahladFilmy.Location = new System.Drawing.Point(102, 114);
+            this.nahladFilmy.Location = new System.Drawing.Point(87, 216);
             this.nahladFilmy.Name = "nahladFilmy";
             this.nahladFilmy.RowTemplate.Height = 40;
-            this.nahladFilmy.Size = new System.Drawing.Size(915, 609);
+            this.nahladFilmy.Size = new System.Drawing.Size(1248, 710);
             this.nahladFilmy.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(529, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(320, 46);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Databáza filmov";
             // 
             // ZobrazFilmy
             // 
@@ -47,17 +58,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1448, 1020);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.nahladFilmy);
             this.Name = "ZobrazFilmy";
             this.Text = "ZobrazFilmy";
             this.Load += new System.EventHandler(this.ZobrazFilmy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nahladFilmy)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView nahladFilmy;
+        private System.Windows.Forms.Label label3;
     }
 }
