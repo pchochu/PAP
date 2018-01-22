@@ -1,0 +1,7 @@
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\obj\Debug\KolekciePreXML.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\obj\Debug\KolekciePreXML.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\bin\Debug\KolekciePreXML.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\bin\Debug\KolekciePreXML.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\bin\Debug\KolekciePreXML.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\obj\Debug\KolekciePreXML.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\KolekciePreXML\obj\Debug\KolekciePreXML.pdb

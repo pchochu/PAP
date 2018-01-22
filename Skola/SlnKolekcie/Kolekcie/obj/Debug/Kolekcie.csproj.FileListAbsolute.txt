@@ -1,0 +1,7 @@
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\bin\Debug\Kolekcie.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\bin\Debug\Kolekcie.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\bin\Debug\Kolekcie.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\obj\Debug\Kolekcie.csprojResolveAssemblyReference.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\obj\Debug\Kolekcie.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\obj\Debug\Kolekcie.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Road\SlnKolekcie\Kolekcie\obj\Debug\Kolekcie.pdb

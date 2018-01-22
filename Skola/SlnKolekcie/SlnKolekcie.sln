@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolekcie", "Kolekcie\Kolekcie.csproj", "{A7D9CE1A-E9FE-46EA-9092-1CB309C73CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekciePreXML", "KolekciePreXML\KolekciePreXML.csproj", "{322F5AF5-7268-48E0-BCCD-BC43DFC4D814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D9CE1A-E9FE-46EA-9092-1CB309C73CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D9CE1A-E9FE-46EA-9092-1CB309C73CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D9CE1A-E9FE-46EA-9092-1CB309C73CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D9CE1A-E9FE-46EA-9092-1CB309C73CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F5AF5-7268-48E0-BCCD-BC43DFC4D814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F5AF5-7268-48E0-BCCD-BC43DFC4D814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F5AF5-7268-48E0-BCCD-BC43DFC4D814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F5AF5-7268-48E0-BCCD-BC43DFC4D814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24761C2B-3BC2-497F-ADED-7966EFC3CA82}
+	EndGlobalSection
+EndGlobal

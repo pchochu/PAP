@@ -1,0 +1,7 @@
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\bin\Debug\xamlSkusam.exe.config
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\bin\Debug\xamlSkusam.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\bin\Debug\xamlSkusam.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\obj\Debug\Rezervacie.csproj.CoreCompileInputs.cache
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\obj\Debug\xamlSkusam.exe
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\obj\Debug\xamlSkusam.pdb
+C:\Users\Peto\Documents\GitHub\PAP\Skola\Vynimky\SlnXAML\xamlSkusam\obj\Debug\Rezervacie.csprojResolveAssemblyReference.cache
