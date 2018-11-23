@@ -1,5 +1,5 @@
 # PAP
-PAP project - Mendel Uni
+PAP project - Mendel Uni - Film2Night folder
 
 Sylabus:
 https://is.mendelu.cz/katalog/syllabus.pl?odkud=;zobrazit_sklad=0;zobrazit_obdobi=0;obdobi=;zpet=../pracoviste/predmety.pl?id=8;predmet=93195;typ=22;jazyk=3;vystup=1;lang=sk
